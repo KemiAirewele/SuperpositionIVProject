@@ -52,3 +52,45 @@ extension Double
         return Double(floor(pow(10.0, Double(places)) * self)/pow(10.0, Double(places)))
     }
 }
+
+@IBDesignable public class RoundButton: UIButton {
+    var indexPath: NSIndexPath!
+    
+    @IBInspectable var borderColor: UIColor = UIColor.white {
+        didSet {
+            layer.borderColor = borderColor.cgColor
+        }
+    }
+    
+    @IBInspectable var borderWidth: CGFloat = 2.0 {
+        didSet {
+            layer.borderWidth = borderWidth
+        }
+    }
+    
+    @IBInspectable var cornerRadius: CGFloat = 2.0 {
+        didSet {
+            layer.cornerRadius = cornerRadius
+        }
+    }
+    
+    override public func layoutSubviews() {
+        super.layoutSubviews()
+        clipsToBounds = true
+    }
+}
+
+class Products: NSObject {
+    @objc var name: String?
+    @objc var forSkinType: [String]?
+    @objc var ingredients: [String]?
+    @objc var type: String?
+    var canAdd: Int?
+}
+
+class Users: NSObject {
+    @objc var email: String?
+    @objc var uid: String?
+    @objc var name: String?
+    @objc var skinType: String?
+}

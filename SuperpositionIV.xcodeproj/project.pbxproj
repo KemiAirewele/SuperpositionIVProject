@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		60AA740565C5E944055925BD /* Pods_SuperpositionIV_SuperpositionIVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DF6E1647B05439A82380A9 /* Pods_SuperpositionIV_SuperpositionIVUITests.framework */; };
+		722DCF3F240BD08C00EE7E6F /* ProductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722DCF3E240BD08C00EE7E6F /* ProductsCollectionViewCell.swift */; };
+		722DCF41240BD26C00EE7E6F /* ModelIBM.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 722DCF40240BD26C00EE7E6F /* ModelIBM.mlmodel */; };
+		722DCF43240BD4B800EE7E6F /* AddProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722DCF42240BD4B800EE7E6F /* AddProductsViewController.swift */; };
 		72CEFAD2240B8A57001742A5 /* SkinClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 72CEFAD1240B8A57001742A5 /* SkinClassifier.mlmodel */; };
 		72D87E42240B1DA600639F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D87E41240B1DA600639F82 /* AppDelegate.swift */; };
 		72D87E44240B1DA600639F82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D87E43240B1DA600639F82 /* SceneDelegate.swift */; };
-		72D87E46240B1DA600639F82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D87E45240B1DA600639F82 /* ViewController.swift */; };
 		72D87E49240B1DA600639F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D87E47240B1DA600639F82 /* Main.storyboard */; };
 		72D87E4B240B1DA900639F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D87E4A240B1DA900639F82 /* Assets.xcassets */; };
 		72D87E4E240B1DA900639F82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D87E4C240B1DA900639F82 /* LaunchScreen.storyboard */; };
@@ -53,11 +55,13 @@
 		2D888E4EA7B4E8258331B753 /* Pods-SuperpositionIV-SuperpositionIVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperpositionIV-SuperpositionIVUITests.release.xcconfig"; path = "Target Support Files/Pods-SuperpositionIV-SuperpositionIVUITests/Pods-SuperpositionIV-SuperpositionIVUITests.release.xcconfig"; sourceTree = "<group>"; };
 		37DF6E1647B05439A82380A9 /* Pods_SuperpositionIV_SuperpositionIVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperpositionIV_SuperpositionIVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39CFF7A3D2A42DD34B7FD01D /* Pods-SuperpositionIV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperpositionIV.debug.xcconfig"; path = "Target Support Files/Pods-SuperpositionIV/Pods-SuperpositionIV.debug.xcconfig"; sourceTree = "<group>"; };
+		722DCF3E240BD08C00EE7E6F /* ProductsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCollectionViewCell.swift; sourceTree = "<group>"; };
+		722DCF40240BD26C00EE7E6F /* ModelIBM.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ModelIBM.mlmodel; sourceTree = "<group>"; };
+		722DCF42240BD4B800EE7E6F /* AddProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductsViewController.swift; sourceTree = "<group>"; };
 		72CEFAD1240B8A57001742A5 /* SkinClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SkinClassifier.mlmodel; sourceTree = "<group>"; };
 		72D87E3E240B1DA600639F82 /* dermaworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dermaworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D87E41240B1DA600639F82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72D87E43240B1DA600639F82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72D87E45240B1DA600639F82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		72D87E48240B1DA600639F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72D87E4A240B1DA900639F82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72D87E4D240B1DA900639F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -140,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				72CEFAD1240B8A57001742A5 /* SkinClassifier.mlmodel */,
+				722DCF40240BD26C00EE7E6F /* ModelIBM.mlmodel */,
 				72D87E40240B1DA600639F82 /* SuperpositionIV */,
 				72D87E57240B1DA900639F82 /* SuperpositionIVTests */,
 				72D87E62240B1DA900639F82 /* SuperpositionIVUITests */,
@@ -166,8 +171,9 @@
 				72D87E72240B463400639F82 /* Scan */,
 				72D87E71240B462D00639F82 /* Login */,
 				72D87E41240B1DA600639F82 /* AppDelegate.swift */,
+				722DCF3E240BD08C00EE7E6F /* ProductsCollectionViewCell.swift */,
 				72D87E43240B1DA600639F82 /* SceneDelegate.swift */,
-				72D87E45240B1DA600639F82 /* ViewController.swift */,
+				722DCF42240BD4B800EE7E6F /* AddProductsViewController.swift */,
 				72D87E84240B6F4700639F82 /* NetworkingService.swift */,
 				72D87E47240B1DA600639F82 /* Main.storyboard */,
 				72D87E80240B6CC900639F82 /* Global.swift */,
@@ -466,7 +472,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72D87E46240B1DA600639F82 /* ViewController.swift in Sources */,
+				722DCF41240BD26C00EE7E6F /* ModelIBM.mlmodel in Sources */,
+				722DCF3F240BD08C00EE7E6F /* ProductsCollectionViewCell.swift in Sources */,
 				72D87E42240B1DA600639F82 /* AppDelegate.swift in Sources */,
 				72D87E44240B1DA600639F82 /* SceneDelegate.swift in Sources */,
 				72D87E85240B6F4700639F82 /* NetworkingService.swift in Sources */,
@@ -474,6 +481,7 @@
 				72D87E74240B465800639F82 /* MetaDataViewController.swift in Sources */,
 				D1D530A7240BB0310034E34C /* ProfileViewController.swift in Sources */,
 				72D87E83240B6D6100639F82 /* LoginViewController.swift in Sources */,
+				722DCF43240BD4B800EE7E6F /* AddProductsViewController.swift in Sources */,
 				72CEFAD2240B8A57001742A5 /* SkinClassifier.mlmodel in Sources */,
 				72D87E7D240B597100639F82 /* MainViewController.swift in Sources */,
 				72D87E7F240B5CD100639F82 /* ResultsViewController.swift in Sources */,
@@ -652,7 +660,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U362PK6229;
+				DEVELOPMENT_TEAM = ZP9JQT2Z86;
 				INFOPLIST_FILE = SuperpositionIV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -671,7 +679,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U362PK6229;
+				DEVELOPMENT_TEAM = ZP9JQT2Z86;
 				INFOPLIST_FILE = SuperpositionIV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

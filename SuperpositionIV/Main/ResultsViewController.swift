@@ -52,7 +52,7 @@ class ResultsViewController: UIViewController {
     }
     
     func getResults() {
-        guard let model = try? SkinClassifier() else { return }
+       guard let model = try? SkinClassifier() else { return }
 
         guard let modelOutput = try? model.prediction(image: buffer(from: image)!)
             else {
@@ -66,9 +66,6 @@ class ResultsViewController: UIViewController {
             print(thing)
         }
         accuracyDict.removeAll()
-        
-        
-        
     
     }
     
