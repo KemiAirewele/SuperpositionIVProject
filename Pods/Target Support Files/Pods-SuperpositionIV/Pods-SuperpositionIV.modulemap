@@ -1,0 +1,6 @@
+framework module Pods_SuperpositionIV {
+  umbrella header "Pods-SuperpositionIV-umbrella.h"
+
+  export *
+  module * { export * }
+}

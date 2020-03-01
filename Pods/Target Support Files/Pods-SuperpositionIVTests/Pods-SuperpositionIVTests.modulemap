@@ -1,0 +1,6 @@
+framework module Pods_SuperpositionIVTests {
+  umbrella header "Pods-SuperpositionIVTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

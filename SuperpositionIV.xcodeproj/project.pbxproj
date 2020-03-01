@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60AA740565C5E944055925BD /* Pods_SuperpositionIV_SuperpositionIVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DF6E1647B05439A82380A9 /* Pods_SuperpositionIV_SuperpositionIVUITests.framework */; };
+		72CEFAD2240B8A57001742A5 /* SkinClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 72CEFAD1240B8A57001742A5 /* SkinClassifier.mlmodel */; };
+		72D87E42240B1DA600639F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D87E41240B1DA600639F82 /* AppDelegate.swift */; };
+		72D87E44240B1DA600639F82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D87E43240B1DA600639F82 /* SceneDelegate.swift */; };
+		72D87E46240B1DA600639F82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D87E45240B1DA600639F82 /* ViewController.swift */; };
+		72D87E49240B1DA600639F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D87E47240B1DA600639F82 /* Main.storyboard */; };
+		72D87E4B240B1DA900639F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D87E4A240B1DA900639F82 /* Assets.xcassets */; };
+		72D87E4E240B1DA900639F82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D87E4C240B1DA900639F82 /* LaunchScreen.storyboard */; };
+		72D87E59240B1DA900639F82 /* SuperpositionIVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D87E58240B1DA900639F82 /* SuperpositionIVTests.swift */; };
+		72D87E64240B1DA900639F82 /* SuperpositionIVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D87E63240B1DA900639F82 /* SuperpositionIVUITests.swift */; };
+		72D87E74240B465800639F82 /* MetaDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D87E73240B465800639F82 /* MetaDataViewController.swift */; };
+		72D87E7D240B597100639F82 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D87E7C240B597100639F82 /* MainViewController.swift */; };
+		72D87E7F240B5CD100639F82 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D87E7E240B5CD100639F82 /* ResultsViewController.swift */; };
+		72D87E81240B6CC900639F82 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D87E80240B6CC900639F82 /* Global.swift */; };
+		72D87E83240B6D6100639F82 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D87E82240B6D6100639F82 /* LoginViewController.swift */; };
+		72D87E85240B6F4700639F82 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D87E84240B6F4700639F82 /* NetworkingService.swift */; };
+		72FBE004240B7B6A00AA14FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72FBE003240B7B6A00AA14FA /* GoogleService-Info.plist */; };
+		72FBE005240B7B6A00AA14FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72FBE003240B7B6A00AA14FA /* GoogleService-Info.plist */; };
+		72FBE006240B7B6A00AA14FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72FBE003240B7B6A00AA14FA /* GoogleService-Info.plist */; };
+		72FBE008240B7D1600AA14FA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FBE007240B7D1600AA14FA /* SignUpViewController.swift */; };
+		9D3A2C3AA89254A67E51AC5E /* Pods_SuperpositionIVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84EBF81544959B03E5C1979 /* Pods_SuperpositionIVTests.framework */; };
+		E62F7EE3C9CD3A22A21BB108 /* Pods_SuperpositionIV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC06B139403AF10EFF3729DE /* Pods_SuperpositionIV.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72D87E55240B1DA900639F82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72D87E36240B1DA600639F82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72D87E3D240B1DA600639F82;
+			remoteInfo = SuperpositionIV;
+		};
+		72D87E60240B1DA900639F82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72D87E36240B1DA600639F82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72D87E3D240B1DA600639F82;
+			remoteInfo = SuperpositionIV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D888E4EA7B4E8258331B753 /* Pods-SuperpositionIV-SuperpositionIVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperpositionIV-SuperpositionIVUITests.release.xcconfig"; path = "Target Support Files/Pods-SuperpositionIV-SuperpositionIVUITests/Pods-SuperpositionIV-SuperpositionIVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		37DF6E1647B05439A82380A9 /* Pods_SuperpositionIV_SuperpositionIVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperpositionIV_SuperpositionIVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CFF7A3D2A42DD34B7FD01D /* Pods-SuperpositionIV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperpositionIV.debug.xcconfig"; path = "Target Support Files/Pods-SuperpositionIV/Pods-SuperpositionIV.debug.xcconfig"; sourceTree = "<group>"; };
+		72CEFAD1240B8A57001742A5 /* SkinClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SkinClassifier.mlmodel; sourceTree = "<group>"; };
+		72D87E3E240B1DA600639F82 /* dermaworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dermaworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D87E41240B1DA600639F82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72D87E43240B1DA600639F82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		72D87E45240B1DA600639F82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72D87E48240B1DA600639F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72D87E4A240B1DA900639F82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72D87E4D240B1DA900639F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72D87E4F240B1DA900639F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72D87E54240B1DA900639F82 /* SuperpositionIVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperpositionIVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D87E58240B1DA900639F82 /* SuperpositionIVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperpositionIVTests.swift; sourceTree = "<group>"; };
+		72D87E5A240B1DA900639F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72D87E5F240B1DA900639F82 /* SuperpositionIVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperpositionIVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D87E63240B1DA900639F82 /* SuperpositionIVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperpositionIVUITests.swift; sourceTree = "<group>"; };
+		72D87E65240B1DA900639F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72D87E73240B465800639F82 /* MetaDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaDataViewController.swift; sourceTree = "<group>"; };
+		72D87E7C240B597100639F82 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		72D87E7E240B5CD100639F82 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		72D87E80240B6CC900639F82 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		72D87E82240B6D6100639F82 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		72D87E84240B6F4700639F82 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		72FBE003240B7B6A00AA14FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		72FBE007240B7D1600AA14FA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9E83574CE899BB553706EBDC /* Pods-SuperpositionIV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperpositionIV.release.xcconfig"; path = "Target Support Files/Pods-SuperpositionIV/Pods-SuperpositionIV.release.xcconfig"; sourceTree = "<group>"; };
+		B84EBF81544959B03E5C1979 /* Pods_SuperpositionIVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperpositionIVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72E7CC85F5A8E464E7AC56A /* Pods-SuperpositionIVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperpositionIVTests.release.xcconfig"; path = "Target Support Files/Pods-SuperpositionIVTests/Pods-SuperpositionIVTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF0277E746276149E162648A /* Pods-SuperpositionIVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperpositionIVTests.debug.xcconfig"; path = "Target Support Files/Pods-SuperpositionIVTests/Pods-SuperpositionIVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC06B139403AF10EFF3729DE /* Pods_SuperpositionIV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperpositionIV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25785A725BCA8F84B81801E /* Pods-SuperpositionIV-SuperpositionIVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperpositionIV-SuperpositionIVUITests.debug.xcconfig"; path = "Target Support Files/Pods-SuperpositionIV-SuperpositionIVUITests/Pods-SuperpositionIV-SuperpositionIVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72D87E3B240B1DA600639F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62F7EE3C9CD3A22A21BB108 /* Pods_SuperpositionIV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D87E51240B1DA900639F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D3A2C3AA89254A67E51AC5E /* Pods_SuperpositionIVTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D87E5C240B1DA900639F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60AA740565C5E944055925BD /* Pods_SuperpositionIV_SuperpositionIVUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		472781F5A57609AE9D013C9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC06B139403AF10EFF3729DE /* Pods_SuperpositionIV.framework */,
+				37DF6E1647B05439A82380A9 /* Pods_SuperpositionIV_SuperpositionIVUITests.framework */,
+				B84EBF81544959B03E5C1979 /* Pods_SuperpositionIVTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65D9A0D513E6B30398002FE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39CFF7A3D2A42DD34B7FD01D /* Pods-SuperpositionIV.debug.xcconfig */,
+				9E83574CE899BB553706EBDC /* Pods-SuperpositionIV.release.xcconfig */,
+				F25785A725BCA8F84B81801E /* Pods-SuperpositionIV-SuperpositionIVUITests.debug.xcconfig */,
+				2D888E4EA7B4E8258331B753 /* Pods-SuperpositionIV-SuperpositionIVUITests.release.xcconfig */,
+				DF0277E746276149E162648A /* Pods-SuperpositionIVTests.debug.xcconfig */,
+				D72E7CC85F5A8E464E7AC56A /* Pods-SuperpositionIVTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		72D87E35240B1DA600639F82 = {
+			isa = PBXGroup;
+			children = (
+				72CEFAD1240B8A57001742A5 /* SkinClassifier.mlmodel */,
+				72D87E40240B1DA600639F82 /* SuperpositionIV */,
+				72D87E57240B1DA900639F82 /* SuperpositionIVTests */,
+				72D87E62240B1DA900639F82 /* SuperpositionIVUITests */,
+				72D87E3F240B1DA600639F82 /* Products */,
+				65D9A0D513E6B30398002FE7 /* Pods */,
+				472781F5A57609AE9D013C9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72D87E3F240B1DA600639F82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72D87E3E240B1DA600639F82 /* dermaworks.app */,
+				72D87E54240B1DA900639F82 /* SuperpositionIVTests.xctest */,
+				72D87E5F240B1DA900639F82 /* SuperpositionIVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72D87E40240B1DA600639F82 /* SuperpositionIV */ = {
+			isa = PBXGroup;
+			children = (
+				72D87E7B240B596400639F82 /* Main */,
+				72D87E72240B463400639F82 /* Scan */,
+				72D87E71240B462D00639F82 /* Login */,
+				72D87E41240B1DA600639F82 /* AppDelegate.swift */,
+				72D87E43240B1DA600639F82 /* SceneDelegate.swift */,
+				72D87E45240B1DA600639F82 /* ViewController.swift */,
+				72D87E84240B6F4700639F82 /* NetworkingService.swift */,
+				72D87E47240B1DA600639F82 /* Main.storyboard */,
+				72D87E80240B6CC900639F82 /* Global.swift */,
+				72D87E4A240B1DA900639F82 /* Assets.xcassets */,
+				72D87E4C240B1DA900639F82 /* LaunchScreen.storyboard */,
+				72D87E4F240B1DA900639F82 /* Info.plist */,
+				72FBE003240B7B6A00AA14FA /* GoogleService-Info.plist */,
+			);
+			path = SuperpositionIV;
+			sourceTree = "<group>";
+		};
+		72D87E57240B1DA900639F82 /* SuperpositionIVTests */ = {
+			isa = PBXGroup;
+			children = (
+				72D87E58240B1DA900639F82 /* SuperpositionIVTests.swift */,
+				72D87E5A240B1DA900639F82 /* Info.plist */,
+			);
+			path = SuperpositionIVTests;
+			sourceTree = "<group>";
+		};
+		72D87E62240B1DA900639F82 /* SuperpositionIVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72D87E63240B1DA900639F82 /* SuperpositionIVUITests.swift */,
+				72D87E65240B1DA900639F82 /* Info.plist */,
+			);
+			path = SuperpositionIVUITests;
+			sourceTree = "<group>";
+		};
+		72D87E71240B462D00639F82 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				72D87E82240B6D6100639F82 /* LoginViewController.swift */,
+				72FBE007240B7D1600AA14FA /* SignUpViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		72D87E72240B463400639F82 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				72D87E73240B465800639F82 /* MetaDataViewController.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		72D87E7B240B596400639F82 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				72D87E7C240B597100639F82 /* MainViewController.swift */,
+				72D87E7E240B5CD100639F82 /* ResultsViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72D87E3D240B1DA600639F82 /* SuperpositionIV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D87E68240B1DA900639F82 /* Build configuration list for PBXNativeTarget "SuperpositionIV" */;
+			buildPhases = (
+				8E43FAEA2838BEA6CCCCB6B0 /* [CP] Check Pods Manifest.lock */,
+				72D87E3A240B1DA600639F82 /* Sources */,
+				72D87E3B240B1DA600639F82 /* Frameworks */,
+				72D87E3C240B1DA600639F82 /* Resources */,
+				4A9250A987E841A73063E41F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperpositionIV;
+			productName = SuperpositionIV;
+			productReference = 72D87E3E240B1DA600639F82 /* dermaworks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72D87E53240B1DA900639F82 /* SuperpositionIVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D87E6B240B1DA900639F82 /* Build configuration list for PBXNativeTarget "SuperpositionIVTests" */;
+			buildPhases = (
+				96E935FF144C548C71DD1D48 /* [CP] Check Pods Manifest.lock */,
+				72D87E50240B1DA900639F82 /* Sources */,
+				72D87E51240B1DA900639F82 /* Frameworks */,
+				72D87E52240B1DA900639F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72D87E56240B1DA900639F82 /* PBXTargetDependency */,
+			);
+			name = SuperpositionIVTests;
+			productName = SuperpositionIVTests;
+			productReference = 72D87E54240B1DA900639F82 /* SuperpositionIVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72D87E5E240B1DA900639F82 /* SuperpositionIVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D87E6E240B1DA900639F82 /* Build configuration list for PBXNativeTarget "SuperpositionIVUITests" */;
+			buildPhases = (
+				B63D99189D89DD37C1025AEF /* [CP] Check Pods Manifest.lock */,
+				72D87E5B240B1DA900639F82 /* Sources */,
+				72D87E5C240B1DA900639F82 /* Frameworks */,
+				72D87E5D240B1DA900639F82 /* Resources */,
+				A6B3DCAC7013CCF9F256604B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72D87E61240B1DA900639F82 /* PBXTargetDependency */,
+			);
+			name = SuperpositionIVUITests;
+			productName = SuperpositionIVUITests;
+			productReference = 72D87E5F240B1DA900639F82 /* SuperpositionIVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72D87E36240B1DA600639F82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Kemi Airewele";
+				TargetAttributes = {
+					72D87E3D240B1DA600639F82 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					72D87E53240B1DA900639F82 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 72D87E3D240B1DA600639F82;
+					};
+					72D87E5E240B1DA900639F82 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 72D87E3D240B1DA600639F82;
+					};
+				};
+			};
+			buildConfigurationList = 72D87E39240B1DA600639F82 /* Build configuration list for PBXProject "SuperpositionIV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72D87E35240B1DA600639F82;
+			productRefGroup = 72D87E3F240B1DA600639F82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72D87E3D240B1DA600639F82 /* SuperpositionIV */,
+				72D87E53240B1DA900639F82 /* SuperpositionIVTests */,
+				72D87E5E240B1DA900639F82 /* SuperpositionIVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72D87E3C240B1DA600639F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D87E4E240B1DA900639F82 /* LaunchScreen.storyboard in Resources */,
+				72FBE004240B7B6A00AA14FA /* GoogleService-Info.plist in Resources */,
+				72D87E4B240B1DA900639F82 /* Assets.xcassets in Resources */,
+				72D87E49240B1DA600639F82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D87E52240B1DA900639F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FBE005240B7B6A00AA14FA /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D87E5D240B1DA900639F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FBE006240B7B6A00AA14FA /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A9250A987E841A73063E41F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperpositionIV/Pods-SuperpositionIV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperpositionIV/Pods-SuperpositionIV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SuperpositionIV/Pods-SuperpositionIV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E43FAEA2838BEA6CCCCB6B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperpositionIV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96E935FF144C548C71DD1D48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperpositionIVTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B3DCAC7013CCF9F256604B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperpositionIV-SuperpositionIVUITests/Pods-SuperpositionIV-SuperpositionIVUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperpositionIV-SuperpositionIVUITests/Pods-SuperpositionIV-SuperpositionIVUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SuperpositionIV-SuperpositionIVUITests/Pods-SuperpositionIV-SuperpositionIVUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B63D99189D89DD37C1025AEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperpositionIV-SuperpositionIVUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72D87E3A240B1DA600639F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D87E46240B1DA600639F82 /* ViewController.swift in Sources */,
+				72D87E42240B1DA600639F82 /* AppDelegate.swift in Sources */,
+				72D87E44240B1DA600639F82 /* SceneDelegate.swift in Sources */,
+				72D87E85240B6F4700639F82 /* NetworkingService.swift in Sources */,
+				72FBE008240B7D1600AA14FA /* SignUpViewController.swift in Sources */,
+				72D87E74240B465800639F82 /* MetaDataViewController.swift in Sources */,
+				72D87E83240B6D6100639F82 /* LoginViewController.swift in Sources */,
+				72CEFAD2240B8A57001742A5 /* SkinClassifier.mlmodel in Sources */,
+				72D87E7D240B597100639F82 /* MainViewController.swift in Sources */,
+				72D87E7F240B5CD100639F82 /* ResultsViewController.swift in Sources */,
+				72D87E81240B6CC900639F82 /* Global.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D87E50240B1DA900639F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D87E59240B1DA900639F82 /* SuperpositionIVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D87E5B240B1DA900639F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D87E64240B1DA900639F82 /* SuperpositionIVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72D87E56240B1DA900639F82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72D87E3D240B1DA600639F82 /* SuperpositionIV */;
+			targetProxy = 72D87E55240B1DA900639F82 /* PBXContainerItemProxy */;
+		};
+		72D87E61240B1DA900639F82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72D87E3D240B1DA600639F82 /* SuperpositionIV */;
+			targetProxy = 72D87E60240B1DA900639F82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72D87E47240B1DA600639F82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72D87E48240B1DA600639F82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72D87E4C240B1DA900639F82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72D87E4D240B1DA900639F82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72D87E66240B1DA900639F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72D87E67240B1DA900639F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72D87E69240B1DA900639F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39CFF7A3D2A42DD34B7FD01D /* Pods-SuperpositionIV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP9JQT2Z86;
+				INFOPLIST_FILE = SuperpositionIV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kemi.superposition;
+				PRODUCT_NAME = dermaworks;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72D87E6A240B1DA900639F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E83574CE899BB553706EBDC /* Pods-SuperpositionIV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP9JQT2Z86;
+				INFOPLIST_FILE = SuperpositionIV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kemi.superposition;
+				PRODUCT_NAME = dermaworks;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72D87E6C240B1DA900639F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0277E746276149E162648A /* Pods-SuperpositionIVTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP9JQT2Z86;
+				INFOPLIST_FILE = SuperpositionIVTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kemiair.SuperpositionIVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperpositionIV.app/SuperpositionIV";
+			};
+			name = Debug;
+		};
+		72D87E6D240B1DA900639F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72E7CC85F5A8E464E7AC56A /* Pods-SuperpositionIVTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP9JQT2Z86;
+				INFOPLIST_FILE = SuperpositionIVTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kemiair.SuperpositionIVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperpositionIV.app/SuperpositionIV";
+			};
+			name = Release;
+		};
+		72D87E6F240B1DA900639F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25785A725BCA8F84B81801E /* Pods-SuperpositionIV-SuperpositionIVUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP9JQT2Z86;
+				INFOPLIST_FILE = SuperpositionIVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kemiair.SuperpositionIVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperpositionIV;
+			};
+			name = Debug;
+		};
+		72D87E70240B1DA900639F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D888E4EA7B4E8258331B753 /* Pods-SuperpositionIV-SuperpositionIVUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP9JQT2Z86;
+				INFOPLIST_FILE = SuperpositionIVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kemiair.SuperpositionIVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperpositionIV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72D87E39240B1DA600639F82 /* Build configuration list for PBXProject "SuperpositionIV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D87E66240B1DA900639F82 /* Debug */,
+				72D87E67240B1DA900639F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D87E68240B1DA900639F82 /* Build configuration list for PBXNativeTarget "SuperpositionIV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D87E69240B1DA900639F82 /* Debug */,
+				72D87E6A240B1DA900639F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D87E6B240B1DA900639F82 /* Build configuration list for PBXNativeTarget "SuperpositionIVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D87E6C240B1DA900639F82 /* Debug */,
+				72D87E6D240B1DA900639F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D87E6E240B1DA900639F82 /* Build configuration list for PBXNativeTarget "SuperpositionIVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D87E6F240B1DA900639F82 /* Debug */,
+				72D87E70240B1DA900639F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72D87E36240B1DA600639F82 /* Project object */;
+}
