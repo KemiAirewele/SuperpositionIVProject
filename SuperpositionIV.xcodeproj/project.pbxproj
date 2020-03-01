@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		60AA740565C5E944055925BD /* Pods_SuperpositionIV_SuperpositionIVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DF6E1647B05439A82380A9 /* Pods_SuperpositionIV_SuperpositionIVUITests.framework */; };
+		72089789240BCB8A00B383F4 /* ProductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72089788240BCB8A00B383F4 /* ProductsCollectionViewCell.swift */; };
 		72CEFAD2240B8A57001742A5 /* SkinClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 72CEFAD1240B8A57001742A5 /* SkinClassifier.mlmodel */; };
 		72D87E42240B1DA600639F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D87E41240B1DA600639F82 /* AppDelegate.swift */; };
 		72D87E44240B1DA600639F82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D87E43240B1DA600639F82 /* SceneDelegate.swift */; };
@@ -52,6 +53,7 @@
 		2D888E4EA7B4E8258331B753 /* Pods-SuperpositionIV-SuperpositionIVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperpositionIV-SuperpositionIVUITests.release.xcconfig"; path = "Target Support Files/Pods-SuperpositionIV-SuperpositionIVUITests/Pods-SuperpositionIV-SuperpositionIVUITests.release.xcconfig"; sourceTree = "<group>"; };
 		37DF6E1647B05439A82380A9 /* Pods_SuperpositionIV_SuperpositionIVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperpositionIV_SuperpositionIVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39CFF7A3D2A42DD34B7FD01D /* Pods-SuperpositionIV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperpositionIV.debug.xcconfig"; path = "Target Support Files/Pods-SuperpositionIV/Pods-SuperpositionIV.debug.xcconfig"; sourceTree = "<group>"; };
+		72089788240BCB8A00B383F4 /* ProductsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCollectionViewCell.swift; sourceTree = "<group>"; };
 		72CEFAD1240B8A57001742A5 /* SkinClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SkinClassifier.mlmodel; sourceTree = "<group>"; };
 		72D87E3E240B1DA600639F82 /* dermaworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dermaworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D87E41240B1DA600639F82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				72D87E41240B1DA600639F82 /* AppDelegate.swift */,
 				72D87E43240B1DA600639F82 /* SceneDelegate.swift */,
 				72D87E45240B1DA600639F82 /* ViewController.swift */,
+				72089788240BCB8A00B383F4 /* ProductsCollectionViewCell.swift */,
 				72D87E84240B6F4700639F82 /* NetworkingService.swift */,
 				72D87E47240B1DA600639F82 /* Main.storyboard */,
 				72D87E80240B6CC900639F82 /* Global.swift */,
@@ -463,6 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72089789240BCB8A00B383F4 /* ProductsCollectionViewCell.swift in Sources */,
 				72D87E46240B1DA600639F82 /* ViewController.swift in Sources */,
 				72D87E42240B1DA600639F82 /* AppDelegate.swift in Sources */,
 				72D87E44240B1DA600639F82 /* SceneDelegate.swift in Sources */,

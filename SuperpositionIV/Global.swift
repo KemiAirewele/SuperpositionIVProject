@@ -52,3 +52,10 @@ extension Double
         return Double(floor(pow(10.0, Double(places)) * self)/pow(10.0, Double(places)))
     }
 }
+
+class Products: NSObject {
+    @objc var forSkinType: [String: Bool]?
+    @objc var ingredients: [String: Bool]?
+    @objc var type: String?
+    var canAdd: Bool?
+}
