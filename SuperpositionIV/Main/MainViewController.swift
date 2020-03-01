@@ -9,7 +9,6 @@
 import UIKit
 
 class MainViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-    let networkingService = NetworkingService()
     var acneImage: UIImage!
     var imagePicker: UIImagePickerController!
 
@@ -55,13 +54,6 @@ class MainViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         acneImage = info[.originalImage] as? UIImage
     }
     
-    @IBAction func logOut(_ sender: Any) {
-        networkingService.signOut()
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "startvc")
-        vc?.modalPresentationStyle = .fullScreen
-        self.present(vc!, animated: true, completion: nil)
-        userID = nil
-    }
     
     // MARK: - Navigation
 

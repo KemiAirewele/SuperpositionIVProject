@@ -21,7 +21,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
     var databaseRef: DatabaseReference! {
         return Database.database().reference()
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         

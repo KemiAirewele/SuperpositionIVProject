@@ -28,6 +28,7 @@
 		72FBE006240B7B6A00AA14FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72FBE003240B7B6A00AA14FA /* GoogleService-Info.plist */; };
 		72FBE008240B7D1600AA14FA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FBE007240B7D1600AA14FA /* SignUpViewController.swift */; };
 		9D3A2C3AA89254A67E51AC5E /* Pods_SuperpositionIVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84EBF81544959B03E5C1979 /* Pods_SuperpositionIVTests.framework */; };
+		D1D530A7240BB0310034E34C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D530A6240BB0310034E34C /* ProfileViewController.swift */; };
 		E62F7EE3C9CD3A22A21BB108 /* Pods_SuperpositionIV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC06B139403AF10EFF3729DE /* Pods_SuperpositionIV.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,7 @@
 		72FBE007240B7D1600AA14FA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		9E83574CE899BB553706EBDC /* Pods-SuperpositionIV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperpositionIV.release.xcconfig"; path = "Target Support Files/Pods-SuperpositionIV/Pods-SuperpositionIV.release.xcconfig"; sourceTree = "<group>"; };
 		B84EBF81544959B03E5C1979 /* Pods_SuperpositionIVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperpositionIVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D530A6240BB0310034E34C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D72E7CC85F5A8E464E7AC56A /* Pods-SuperpositionIVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperpositionIVTests.release.xcconfig"; path = "Target Support Files/Pods-SuperpositionIVTests/Pods-SuperpositionIVTests.release.xcconfig"; sourceTree = "<group>"; };
 		DF0277E746276149E162648A /* Pods-SuperpositionIVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperpositionIVTests.debug.xcconfig"; path = "Target Support Files/Pods-SuperpositionIVTests/Pods-SuperpositionIVTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC06B139403AF10EFF3729DE /* Pods_SuperpositionIV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperpositionIV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -217,6 +219,7 @@
 			children = (
 				72D87E7C240B597100639F82 /* MainViewController.swift */,
 				72D87E7E240B5CD100639F82 /* ResultsViewController.swift */,
+				D1D530A6240BB0310034E34C /* ProfileViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -469,6 +472,7 @@
 				72D87E85240B6F4700639F82 /* NetworkingService.swift in Sources */,
 				72FBE008240B7D1600AA14FA /* SignUpViewController.swift in Sources */,
 				72D87E74240B465800639F82 /* MetaDataViewController.swift in Sources */,
+				D1D530A7240BB0310034E34C /* ProfileViewController.swift in Sources */,
 				72D87E83240B6D6100639F82 /* LoginViewController.swift in Sources */,
 				72CEFAD2240B8A57001742A5 /* SkinClassifier.mlmodel in Sources */,
 				72D87E7D240B597100639F82 /* MainViewController.swift in Sources */,
@@ -648,7 +652,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZP9JQT2Z86;
+				DEVELOPMENT_TEAM = U362PK6229;
 				INFOPLIST_FILE = SuperpositionIV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -667,7 +671,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZP9JQT2Z86;
+				DEVELOPMENT_TEAM = U362PK6229;
 				INFOPLIST_FILE = SuperpositionIV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
